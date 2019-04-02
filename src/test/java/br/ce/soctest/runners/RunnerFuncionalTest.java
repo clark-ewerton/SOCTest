@@ -60,9 +60,9 @@ public class RunnerFuncionalTest {
 		Reporter.setSystemInfo("Maven", "2.18.1");
 		Reporter.setSystemInfo("Java Version", "1.8.0_151");
 
-		if (Propriedades.FECHAR_BROWSER) {
+		//if (Propriedades.FECHAR_BROWSER) {
 			DriverFactory.KillDriver();
-		}
+		//}
 
 	}
 

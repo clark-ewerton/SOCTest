@@ -67,9 +67,9 @@ public class DriverFactory {
 				System.out.println("não foram encontrados drivers");
 			}
 		}
-		if (Propriedades.TIPO_EXECUCAO == TipoExecucao.GRID) {
+		if (environmentType == TipoExecucao.GRID) {
 			DesiredCapabilities cap = null;
-			switch (Propriedades.BROWSER) {
+			switch (driverType) {
 			case CHROME:
 				cap = DesiredCapabilities.chrome();
 				break;
@@ -83,7 +83,7 @@ public class DriverFactory {
 			try {
 				// driver = new RemoteWebDriver(new URL("http://192.168.1.32:4444/wd/hub"),
 				// cap);
-				driver = new RemoteWebDriver(new URL("http://169.254.23.107:4444/wd/hub"), cap);
+				driver = new RemoteWebDriver(new URL("http://192.168.1.32:4444/wd/hub"), cap);
 			} catch (MalformedURLException e) {
 				System.err.println("Falha na conexao com o GRID");
 				e.printStackTrace();

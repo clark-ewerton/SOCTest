@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: | teste123 | RESULTADO DA SUA BUSCA NO BLOG: TESTE123 |
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in | teste123 | RESULTADO DA SUA BUSCA NO BLOG: TESTE123 |
