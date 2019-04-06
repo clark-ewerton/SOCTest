@@ -8,7 +8,7 @@ public class Propriedades {
 		//define o chaveamento de browsers
 		public static Browsers BROWSER = Browsers.CHROME;
 		
-		public static TipoExecucao TIPO_EXECUCAO = TipoExecucao.LOCAL;
+		public static TipoExecucao TIPO_EXECUCAO = TipoExecucao.GRID;
 		
 		//garantir um novo nome de conta toda vez que eu executar meus testes sem precisar ficar mudando na mao
 		//public static String NOME_CONTA_ALTERADA = "Conta Alterada " + System.nanoTime();
