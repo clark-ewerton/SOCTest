@@ -17,6 +17,6 @@ Testes podem ser rodados nos browsers: CHROME e FIREFOX utilizando as seguintes 
 - Testes locais
 - Testes utilizando SELENIUM GRID
 
-Utilização de JUnit4
-Utilização de padrão de projeto PageFactory
-Utilização de ReportStatus ao final dos testes
+- Utilização de JUnit4
+- Utilização de padrão de projeto PageFactory
+- Utilização de ReportStatus ao final dos testes utilizando Extent-Reports
